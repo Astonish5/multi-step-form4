@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+@font-face {
+    font-family:Ubuntu-Bold ;
+    src: url(Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url(Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family:DownUbuntu-Regular ;
+    src: url(Ubuntu-Regular.ttf);
+}
+body{
+    height: 100vh;
+    background-color: rgb(231, 229, 229);
+}
+.container{
+    display: flex;
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 300px;
+    padding: 10px 10px;
+    margin-top: 70px;
+    
+}
+.txt{
+    padding-left: 100px;
+}
+.img{
+    background-image: url(bg-sidebar-desktop.svg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 570px;
+    background-position: sticky;
+}
+#Info{
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: rgb(66, 66, 250);
+}
+.stp1{
+padding-left: 20px; 
+color: white;
+}
+.Info{
+display: flex;
+padding-left: 30px;
+padding-top: 35px;
+font-family:Ubuntu-Bold;
+}
+.stp{
+    color: lightgray;
+    font-size: 0.8em;
+}
+#name{
+    width: 380px;
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#email{
+
+    width: 380px;
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.red{
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+.num{
+    color: white;
+}
+.format{
+    padding-bottom: 30px;
+}
+#tel{
+
+    width: 380px;
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.box{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.nxt{ 
+    margin-top: 50px;
+    padding: 20px 20px;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: darkblue;
+    
+}
+.pg8{
+    font-family: Ubuntu-Medium;
+}
+.nxt5{
+    font-family: Ubuntu-Medium;
+    font-size: 1.2em;
+}
+.nxt:hover{
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+#Info:hover {
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+.ps{
+    font-family:Ubuntu-Bold;
+}
+.boxes{
+    display: flex;
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+.box1{
+    height: 150px;
+    width: 120px;
+    border: 1px solid; 
+    border-radius: 5px;
+    margin: 8px;
+    padding-left: 20px;
+    background-color: rgb(243, 241, 241);
+}
+.sub{
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.sect{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.pg{
+    padding-bottom: 20px;
+}
+.but1{
+
+    padding: 10px 10px;
+    border: none;
+    color:rgb(140, 140, 140);
+    cursor: pointer;  
+    align-content: center;
+    margin-left: 100px;
+    
+    
+}
+.pg9{
+    color:rgb(140, 140, 140);
+    font-family: Ubuntu-Medium;
+}
+.pg9:hover{
+ 
+    color: black;
+    cursor: pointer;   
+}
+.nxt1{
+  margin-left: 320px;
+    margin-top: 150px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: darkblue;   
+    
+}
+.nxt1:hover{
+    
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;  
+}
+.pg10{
+    font-family: Ubuntu-Medium;
+}
+.mon{
+    background-color: rgb(236, 243, 250);
+    width: 400px;
+    display: flex;
+}
+.nxt2{
+    
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(141, 140, 140);  
+    font-family: Ubuntu-Medium;
+}
+.nxt2:hover{
+    
+    color: black;
+    cursor: pointer;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nm1{
+font-family: Ubuntu-Medium;
+}
+.pg7{
+    font-family: Ubuntu-Regular;
+    color: rgb(163, 161, 161);
+}
+.box2{
+    width: 380px;
+    border: 1px solid;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    height: 70px;
+    padding-left: 20px;
+}
+.box3{
+    width: 380px;
+    border: 1px solid;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    height: 70px;
+    padding-left: 20px;
+}
+.box4{
+    width: 380px;
+    border: 1px solid;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    height: 70px;
+    padding-left: 20px;
+}
+.sect1{
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.nxt3{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;  
+    float: inline-start; 
+    margin-left: 0px;
+    margin-top: 130px;
+    color: rgb(141, 140, 140);  
+    font-family: Ubuntu-Medium;
+
+
+}
+.noset{
+    background-color: rgb(234, 245, 249);
+    padding-left: 10px;
+}
+.onset{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: gray;
+}
+.chg1{
+    color: blue;
+    text-decoration: underline;
+}
+.onset1{
+    
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: gray;
+    padding-bottom: 20PX;
+}
+.sect2{
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.img1{
+margin-top: 200px;
+margin-left: 120px;
+}
+.pg6{
+    width: 400px;
+    padding-right: 10px;
+    color: rgb(174, 166, 166);
+}
+.pg2{
+    padding-left: 200px;
+    color: black;
+}
+.pg3{
+    padding-left: 180px;
+    color: blue;
+    font-weight: bold;
+}
+.pg4{
+    padding-left: 190px;
+    color: black;
+}
+.pg5{
+    padding-left: 180px;
+    color: black;
+    font-weight: bold;
+}
+.Am{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.tt{
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(234, 245, 249);
+    padding: 10px 10px;
+    color: gray;
+}
+.pg1{
+    padding-bottom: 30px;
+}
+.nxt3:hover{
+ background-color: lightblue;
+    color: black;
+    cursor: pointer;  
+}  
+.nxt4{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: darkblue;   
+    float: inline-start; 
+    margin-left: 222px;
+    margin-top: 130px;
+    
+
+
+}
+.nxt3:hover{
+ background-color: lightblue;
+    color: black;
+    cursor: pointer;  
+}   
+
+.txt1{
+    padding-left: 100px;
+    margin-right: 20px
+}
+.but2{
+justify-content:space-between;}
+.b2{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.p2{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+@media only screen and (max-width:750px) {
+    body{
+     height: 100vh;
+    }
+    .img{
+        background-image: url(bg-sidebar-desktop.svg);
+        transform: rotate(90deg);
+        width: 950px;
+        height: 750px;
+        position: absolute;
+        ba
+    }
+    .Info{
+        transform: translate(90deg);
+    }
+}
